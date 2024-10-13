@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:100,200,300,regular,500,600,700);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  transition: all 0.3s;
+}
+
+.text-hover {
+  text-shadow: 2px 0 #0E6639, -2px 0 #0E6639, 0 2px #0E6639, 0 -2px #0E6639, 2px 2px #0E6639,
+    -2px -2px #0E6639, 2px -2px #0E6639, -2px 2px #0E6639;
+}
